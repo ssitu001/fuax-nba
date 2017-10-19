@@ -34,7 +34,6 @@ const sliderCoverGenerator = (images) => {
 }
 
 const Cover = ({images}) => {
-
   return (
     <div>
       {sliderCoverGenerator(images)}
