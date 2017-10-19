@@ -1,0 +1,26 @@
+.item_slider {
+  height:700px;
+  background-size: cover !important;
+  background-position: center center !important;
+  position: relative;
+}
+
+.item_slider .caption {
+  color: #fff;
+  position: absolute;
+  right: 0px;
+  padding: 20px;
+  text-align: right;
+  width: 320px;
+  text-transform: uppercase;
+}
+
+.item_slider .caption h4 {
+  font-weight: 300;
+  margin: 0px;
+}
+
+.item_slider .caption p {
+  font-size: 70px;
+  margin-top: 0px;
+}
