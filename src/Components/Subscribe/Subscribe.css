@@ -1,0 +1,25 @@
+.subscribe-panel {
+  text-align: center;
+  padding: 25px;
+}
+
+.subscribe-input {
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.subscribe-success {
+  color: green;
+}
+
+.subscribe-error {
+  color: red;
+}
+
+.subscribe-message {
+  margin-top: 10px;
+  font-size: 12px;
+}
