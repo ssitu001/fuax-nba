@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 import Cover from '../Cover/Cover';
 import Subscribe from '../Subscribe/Subscribe';
+import Blocks from '../Blocks/Blocks';
 
 const HOME_URL = 'http://localhost:3005/home';
 
@@ -29,6 +30,7 @@ class Home extends Component {
       <div>
         <Cover images={this.state.home.slider}/>
         <Subscribe />
+        <Blocks blocks={this.state.home.blocks}/>
       </div>
     )
   }

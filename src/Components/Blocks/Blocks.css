@@ -1,0 +1,45 @@
+.home_blocks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.home_blocks .block {
+  flex-grow: 1;
+  position: relative;
+  height: 270px;
+  overflow: hidden;
+}
+
+.home_blocks .block.lg {
+  width: 50%;
+}
+
+.home_blocks .block.md {
+  width: 30%;
+}
+
+.home_blocks .block.sm {
+  width: 20%;
+}
+
+.home_blocks .block .image {
+  height: 270px;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+.home_blocks .block .title {
+  background: black;
+  padding: 10px;
+  transition:all 500ms ease-in-out;
+}
+
+.home_blocks .block:hover .title {
+  transform: translate(0px, -39px);
+  transition:all 500ms ease-in-out;
+}
+
+.home_blocks .block .title a {
+  color: white;
+}
