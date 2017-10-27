@@ -17,7 +17,6 @@ const sliderCoverGenerator = (images) => {
     return (
       <Slider {...settings}>
         {images.map((image) => {
-          console.log('image')
           return (
             <div key={image.id} className="item_slider" 
             style={{background:`url(/images/covers/${image.cover})`}}>
